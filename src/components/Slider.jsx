@@ -8,9 +8,9 @@ import { sliderItems } from "../data";
 export default function Slider(){
     const [click, setClick] = useState(1)
 
-    const firstPage = {transform: 'translateX(0)', backgroundColor: "f5fafd"}
-    const secondPage = {transform: 'translateX(-100vw)', backgroundColor: "fcf1ed"}
-    const thirdPage = {transform: 'translateX(-200vw)', backgroundColor: "fbf0f4"}
+    const firstPage = {transform: 'translateX(0)'}
+    const secondPage = {transform: 'translateX(-100vw)'}
+    const thirdPage = {transform: 'translateX(-200vw)'}
  
     function returnPage(e){
         if(e === 1){
@@ -33,14 +33,14 @@ export default function Slider(){
         <div className="slider-container">
             <div className="slider-wrapper" style={returnPage(click)}>
                 {sliderItems.map((item)=>(
-                <div className="slide" bg={item.bg}>
+                <div className="slide" key={item.id} bg={item.bg}>
                     <div className="img-container">
-                        <img className="image" src={item.img}></img>
+                        <img className="slider-image" src={item.img}></img>
                     </div>
                     <div className="info-container">
-                        <h1 className="title">{item.title}</h1>
-                        <p className="desc">{item.desc}</p>
-                        <button className="button">SHOW NOW</button>
+                        <h1 className="slider-title">{item.title}</h1>
+                        <p className="slider-desc">{item.desc}</p>
+                        <button className="slider-button">SHOW NOW</button>
                     </div>
                 </div>
                 ))}

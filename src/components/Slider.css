@@ -54,8 +54,8 @@
     height: 100%;
 }
 
-.image{
-    height: 80%;
+.slider-image{
+    height: 100%;
     padding-top: 20px;
 }
 
@@ -64,18 +64,18 @@
     padding: 50px;
 }
 
-.title{
+.slider-title{
     font-size: 70px;
 }
 
-.desc{
+.slider-desc{
     margin: 50px 0px;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 3px;
 }
 
-.button{
+.slider-button{
     padding: 10px;
     font-size: 20px;
     background-color: transparent;
