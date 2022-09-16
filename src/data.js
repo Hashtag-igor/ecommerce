@@ -50,7 +50,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://fortaleza1918.com.br/wp-content/uploads/2022/01/CINQ-2021-22-400x400.png",
     },
     {
       id:3,
@@ -70,7 +70,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://jkshoppingdf.com.br/pycmokse/bfi_thumb/wembley-01-75yff6tvts4vsnn3iy5mry0k87m3clg3zdt6dowqphm.png",
     },
     {
       id:8,

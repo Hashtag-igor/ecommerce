@@ -25,7 +25,7 @@ export default function Navbar(){
                     <div className="menuItem">Register</div>
                     <div className="menuItem">Sign in</div>
                     <div className="menuItem">
-                    <Badge badgeContent={4} color="primary">
+                    <Badge badgeContent={1} color="primary">
                         <ShoppingCartOutlined />
                     </Badge>
                     </div>
