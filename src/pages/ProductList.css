@@ -1,0 +1,21 @@
+.productlist-container{
+
+}
+
+.productlist-filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productlist-title{
+    margin: 20px;
+}
+
+.productlist-filter{
+    margin: 20px;
+}
+
+.productlist-filtertext{
+    font-size: 26px;
+    font-weight: 600;
+}
