@@ -1,0 +1,105 @@
+.page-product-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.page-product-imgcontainer{
+    flex: 1;
+}
+
+.page-product-imgcontainer-image{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.infocontainer{
+    flex: 1;
+    padding: 0px 50px;
+}
+
+.infocontainer-title{
+    font-weight: 200;
+}
+.infocontainer-desc{
+    margin: 20px 0px;
+}
+
+.infocontainer-price{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.infocontainer-filtercontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 30px 0px;
+}
+
+.infocontainer-filter{
+    display: flex;
+    align-items: center;
+}
+
+.icf-title{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.icf-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.filtersize{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.filtersize-option{
+    
+}
+
+.addcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.amountcontainer{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.amount{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.button{
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: #f8f4f4;
+}
+
+.remove, .add{
+    font-size: 24px;
+}
