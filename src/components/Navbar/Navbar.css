@@ -59,3 +59,46 @@
     cursor: pointer;
     margin-right: 25px;
 }
+
+
+@media screen and (max-width: 380px){
+    /* Navbar.jsx */
+    .container{
+        background-color: white;
+    }
+    
+    .wrapper{
+        padding: 10px 0px;
+    }
+
+    .language{
+        display: none;
+    }
+
+    .input{
+        width: 50px;
+    }
+
+    .logo{
+        font-size: 24px;
+        margin-left: 30px;
+    }
+
+    .right{
+        justify-content: center;
+        flex: 2;
+        
+    }
+
+    .menuItem{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .left{
+        margin-left: 0px;
+        background-color: white;
+    }
+    
+    
+}

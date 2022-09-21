@@ -1,6 +1,6 @@
 import React from "react"
-import "./Navbar.css"
 
+import "./Navbar.css";
 import Badge from '@mui/material/Badge'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
@@ -12,8 +12,8 @@ export default function Navbar(){
                 <div className="left">
                     <span className="language">EN</span>
                     <div className="searchContainer">
-                        <SearchIcon style={{color: "gray", fontSize: 16}}/>
-                        <input className="input" type="text" placeholder=""/>
+                        <SearchIcon style={{color: "gray", fontSize: "16px"}}/>
+                        <input className="input" type="text" placeholder="Search"/>
                     </div>
                 </div>
                 <div className="center">
