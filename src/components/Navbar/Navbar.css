@@ -1,3 +1,7 @@
+.container{
+    height: 60px;
+}
+
 .wrapper{
     padding: 0px 20px;
     display: flex;

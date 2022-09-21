@@ -1,10 +1,10 @@
-import Announcement from "../components/Announcement";
-import Categories from "../components/Categories";
-import Navbar from "../components/Navbar";
-import Slider from "../components/Slider";
-import Products from "../components/Products"
-import Newslatter from "../components/Newsletter";
-import Footer from "../components/Footer";
+import Announcement from "../components/Announcement/Announcement";
+import Categories from "../components/Categories/Categories";
+import Navbar from "../components/Navbar/Navbar";
+import Slider from "../components/Slider/Slider";
+import Products from "../components/Products/Products";
+import Newslatter from "../components/Newsletter/Newsletter";
+import Footer from "../components/Footer/Footer";
 
 export default function Home(){
     return(

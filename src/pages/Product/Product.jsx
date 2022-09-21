@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./Product.css"
-import Navbar from "../components/Navbar";
-import Announcement from "../components/Announcement";
-import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar/Navbar";
+import Announcement from "../../components/Announcement/Announcement";
+import Newsletter from "../../components/Newsletter/Newsletter";
+import Footer from "../../components/Footer/Footer";
 
 export default function Product(){
     return(

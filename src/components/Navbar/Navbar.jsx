@@ -6,8 +6,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
 
 export default function Navbar(){
-
-
     return(
         <div className="container">
             <div className="wrapper">

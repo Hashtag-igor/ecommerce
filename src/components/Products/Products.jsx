@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./Products.css"
-import { popularProducts } from "../data";
-import Product from "./Product";
+import { popularProducts } from "../../data";
+import Product from "../Product/Product";
 
 export default function Products(){
     return(

@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./Cart.css";
-import Navbar from "../components/Navbar";
-import Announcement from "../components/Announcement"
-import Footer from "../components/Footer"
+import Navbar from "../../components/Navbar/Navbar";
+import Announcement from "../../components/Announcement/Announcement";
+import Footer from "../../components/Footer/Footer";
 
 export default function Cart(){
     return(
@@ -62,7 +62,26 @@ export default function Cart(){
                             </div>
                         </div>
                     </div>
-                    <div className="bottom-summary">Summary</div>
+                    <div className="bottom-summary-container">
+                        <h1 className="summary-title">ORDER SUMMARY</h1>
+                        <div className="summary-item">
+                            <span className="summary-item-text">Subtotal</span>
+                            <span className="summary-item-price">$ 80</span>
+                        </div>
+                        <div className="summary-item">
+                            <span className="summary-item-text">Estimated Shipping</span>
+                            <span className="summary-item-price">$ 5.90</span>
+                        </div>
+                        <div className="summary-item">
+                            <span className="summary-item-text">Shipping Discount</span>
+                            <span className="summary-item-price">$ -5.90</span>
+                        </div>
+                        <div className="summary-item" style={{fontWeight: "600"}}>
+                            <span className="summary-item-text">Total</span>
+                            <span className="summary-item-price">$ 80</span>
+                        </div>
+                        <button className="summary-item-button">CHECK NOW</button>
+                    </div>
                 </div>
             </div>
             <Footer />

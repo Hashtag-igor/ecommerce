@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import "./Slider.css";
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
-import { sliderItems } from "../data";
+import { sliderItems } from "../../data";
 
 export default function Slider(){
     const [click, setClick] = useState(1)

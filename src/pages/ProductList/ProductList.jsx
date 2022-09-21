@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./ProductList.css";
-import Navbar from "../components/Navbar"
-import Announcement from "../components/Announcement";
-import Products from "../components/Products";
-import Newslatter from "../components/Newsletter";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar/Navbar"
+import Announcement from "../../components/Announcement/Announcement";
+import Products from "../../components/Products/Products";
+import Newslatter from "../../components/Newsletter/Newsletter";
+import Footer from "../../components/Footer/Footer";
 
 export default function ProductList(){
     return(
