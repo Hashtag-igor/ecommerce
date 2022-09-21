@@ -41,15 +41,15 @@ export default function Cart(){
                                 <div className="pricedetail-productprice">$ 30</div>
                             </div>
                         </div>
-
+                        <hr className="hr"/>
                         <div className="info-product">
                             <div className="product-productdetail">
-                                <img className="productdetail-image" src="http://cdn.shopify.com/s/files/1/1104/4168/products/AA001TM_SHOE_ANGLE_GLOBAL_MENS_TREE_FLYER_NATURAL_BLACK_BLIZZARD_677baa47-76ad-4a6c-8f69-65ac7ae9ab4a_600x600.png?v=1654208209" alt="" />
+                                <img className="productdetail-image" src="http://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" alt="" />
                                 <div className="productdetail-detail">
-                                    <span className="detail-productname"><strong>Product:</strong> JESSIE THUNDER SHOES</span>
-                                    <span className="detail-productid"><strong>ID:</strong> 93813718293</span>
-                                    <div className="detail-productcolor"></div>
-                                    <span className="detail-productsize"><strong>Size:</strong> 37.5</span>
+                                    <span className="detail-productname"><strong>Product:</strong> HAKURA T-SHIRT</span>
+                                    <span className="detail-productid"><strong>ID:</strong> 44891117825</span>
+                                    <div className="detail-productcolor" style={{backgroundColor: "gray"}}></div>
+                                    <span className="detail-productsize"><strong>Size:</strong> M</span>
                                 </div>
                             </div>
                             <div className="product-pricedetail">
@@ -58,7 +58,7 @@ export default function Cart(){
                                     <div className="productamount">2</div>
                                     <span className="productamount-remove">-</span>
                                 </div>
-                                <div className="pricedetail-productprice">$ 30</div>
+                                <div className="pricedetail-productprice">$ 20</div>
                             </div>
                         </div>
                     </div>
