@@ -78,7 +78,7 @@
 }
 
 .productamount, .productamount-add, .productamount-remove{
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px;
     font-weight: 500;
 }
@@ -112,18 +112,37 @@
     justify-content: space-between;
 }
 
-.summary-item-text{
-
-}
-
-.summary-item-price{
-
-}
-
 .summary-item-button{
     width: 100%;
     padding: 10px;
     background-color: black;
     color: white;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 380px){
+    .cart-wrapper{
+        padding: 10px;
+    }
+
+    .wrapper-top-text{
+        display: none;
+    }
+
+    .wrapper-bottom-container{
+        flex-direction: column;
+    }
+
+    .info-product{
+        flex-direction: column;
+    }
+
+    .productamount{
+        margin: 5px 15px;
+    }
+
+    .pricedetail-productprice{
+        margin-bottom: 20px;
+    }
 }

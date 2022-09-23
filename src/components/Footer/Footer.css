@@ -29,6 +29,7 @@
 .footer-center-listItem{
     width: 50%;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .footer-right{
@@ -44,6 +45,7 @@
 
 .footer-right-image{
     width: 50%;
+    cursor: pointer;
 }
 
 .footer-desc{
@@ -64,4 +66,20 @@
 .icon{
     border-radius: 50%;
     padding: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 380px){
+    .footer-container{
+        flex-direction: column;
+    }
+    
+    .footer-center{
+        display: none;
+    }
+
+    .footer-right{
+        background-color: #e6e6e644;
+    }
 }

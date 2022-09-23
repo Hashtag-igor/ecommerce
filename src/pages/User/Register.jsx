@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 export default function Register(){
     return(
         <div className='user-container'>
-            <div className='user-wrapper'>
+            <div className='register-wrapper'>
                 <h1 className='wrapper-title'>CREATE AN ACCOUNT</h1>
                 <form className='user-form' action="">
                     <input className='user-input' type="text" placeholder='Name'/>
@@ -18,7 +18,7 @@ export default function Register(){
                     <input className='user-input' type="password" placeholder='Password'/>
                     <input className='user-input' type="text" placeholder='Confirm password'/>
                     <span className='agreement'>
-                        By creating an account, I consent to the processing of my personal data in accordance with the <strong>PRIVACY POLICY</strong>
+                        By creating an account, I consent to the processing of my personal data in accordance with the <strong style={{cursor: "pointer"}}>PRIVACY POLICY</strong>
                     </span>
                     <button className='user-button'>CREATE</button>
                 </form>

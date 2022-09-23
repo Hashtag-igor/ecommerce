@@ -10,8 +10,8 @@ import Footer from "../../components/Footer/Footer";
 export default function ProductList(){
     return(
         <div className="productlist-container">
-            <Announcement /> 
-            <Navbar />         
+            <Navbar /> 
+            <Announcement />         
             <h1 className="productlist-title">Dresses</h1> 
             <div className="productlist-filter-container">
                 <div className="productlist-filter">

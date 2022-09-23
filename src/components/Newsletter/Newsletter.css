@@ -38,4 +38,16 @@
     border: none;
     background-color: teal;
     color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 380px){
+    .newsletter-desc{
+        text-align: center;
+    }
+
+    .newsletter-input-container{
+        width: 80%;
+    }
 }

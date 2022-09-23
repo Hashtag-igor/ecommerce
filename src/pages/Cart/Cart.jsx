@@ -4,6 +4,8 @@ import "./Cart.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Announcement from "../../components/Announcement/Announcement";
 import Footer from "../../components/Footer/Footer";
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 
 export default function Cart(){
     return(
@@ -15,8 +17,8 @@ export default function Cart(){
                 <div className="wrapper-top-container">
                     <button className="wrapper-top-button">CONTINUE SHOPPING</button>
                     <div className="wrapper-top-texts">
-                        <span className="wrapper-top-text">Shopping Bag(2)</span>
-                        <span className="wrapper-top-text">Your Wishlist(0)</span>
+                        <span className="wrapper-top-text">Shopping Bag (2)</span>
+                        <span className="wrapper-top-text">Your Wishlist (0)</span>
                     </div>
                     <button className="wrapper-top-button" style={{backgroundColor: "black", color: "white"}}>CHECKOUT NOW</button>
                 </div>
@@ -34,9 +36,9 @@ export default function Cart(){
                             </div>
                             <div className="product-pricedetail">
                                 <div className="pricedetail-productamount-container">
-                                    <span className="productamount-add">+</span>
+                                    <span className="productamount-add"><AddIcon style={{fontSize: "20px"}}/></span>
                                     <div className="productamount">2</div>
-                                    <span className="productamount-remove">-</span>
+                                    <span className="productamount-remove"><RemoveIcon style={{fontSize: "20px"}}/></span>
                                 </div>
                                 <div className="pricedetail-productprice">$ 30</div>
                             </div>
@@ -54,9 +56,9 @@ export default function Cart(){
                             </div>
                             <div className="product-pricedetail">
                                 <div className="pricedetail-productamount-container">
-                                    <span className="productamount-add">+</span>
+                                    <span className="productamount-add"><AddIcon style={{fontSize: "20px"}}/></span>
                                     <div className="productamount">2</div>
-                                    <span className="productamount-remove">-</span>
+                                    <span className="productamount-remove"><RemoveIcon style={{fontSize: "20px"}}/></span>
                                 </div>
                                 <div className="pricedetail-productprice">$ 20</div>
                             </div>

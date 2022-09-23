@@ -3,3 +3,10 @@
     padding: 20px;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 380px){
+    .categories-container{
+        padding: 0px;
+        flex-direction: column;
+    }
+}

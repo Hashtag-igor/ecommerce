@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.user-wrapper{
+.register-wrapper{
     padding: 20px;
     width: 40%;
     background-color: white;
@@ -79,4 +79,15 @@
     cursor: pointer;
     color: black;
     font-weight: 500;
+}
+
+
+@media screen and (max-width: 380px){
+    .login-wrapper{
+        width: 75%;
+    }
+
+    .register-wrapper{
+        width: 75%;
+    }
 }
