@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom"
 
 import "./Slider.css";
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
@@ -40,7 +41,7 @@ export default function Slider(){
                     <div className="info-container">
                         <h1 className="slider-title">{item.title}</h1>
                         <p className="slider-desc">{item.desc}</p>
-                        <button className="slider-button">SHOW NOW</button>
+                        <Link to="/productlist" style={{textDecoration: "none"}}><button className="slider-button">SHOW NOW</button></Link>
                     </div>
                 </div>
                 ))}
