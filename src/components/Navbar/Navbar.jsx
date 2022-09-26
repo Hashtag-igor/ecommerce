@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 import Badge from '@mui/material/Badge'
@@ -17,15 +18,17 @@ export default function Navbar(){
                     </div>
                 </div>
                 <div className="center">
-                    <h1 className="logo">LAMA.</h1>
+                    <Link to="/" style={{textDecoration: "none"}}><h1 className="logo">LAMA.</h1></Link>
                 </div>
                 <div className="right">
-                    <div className="menuItem">Register</div>
-                    <div className="menuItem">Sign in</div>
+                    <Link to="/register" style={{textDecoration: "none"}}><div className="menuItem">Register</div></Link>
+                    <Link to="/login" style={{textDecoration: "none"}}><div className="menuItem">Sign in</div></Link>
                     <div className="menuItem">
-                    <Badge badgeContent={1} color="primary">
-                        <ShoppingCartOutlined />
-                    </Badge>
+                    <Link to="/cart" style={{color: "black"}}>
+                        <Badge badgeContent={2} color="primary">
+                            <ShoppingCartOutlined />
+                        </Badge>
+                    </Link>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import "./Cart.css";
 import Navbar from "../../components/Navbar/Navbar";
@@ -15,7 +16,7 @@ export default function Cart(){
             <div className="cart-wrapper">
                 <h1 className="cart-wrapper-title">YOUR BAG</h1>
                 <div className="wrapper-top-container">
-                    <button className="wrapper-top-button">CONTINUE SHOPPING</button>
+                    <Link to="/productlist" style={{textDecoration: "none"}}><button className="wrapper-top-button">CONTINUE SHOPPING</button></Link>
                     <div className="wrapper-top-texts">
                         <span className="wrapper-top-text">Shopping Bag (2)</span>
                         <span className="wrapper-top-text">Your Wishlist (0)</span>

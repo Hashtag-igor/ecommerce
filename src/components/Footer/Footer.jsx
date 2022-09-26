@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import "./Footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -13,7 +14,7 @@ export default function Footer(){
     return(
         <div className="footer-container">
             <div className="footer-left">
-                <h1 className="footer-logo">LAMA.</h1>
+                <Link to="/" style={{textDecoration: "none"}}><h1 className="footer-logo">LAMA.</h1></Link>
                 <p className="footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nobis facere, beatae explicabo quod iste veritatis odit deleniti enim soluta? Aliquid explicabo libero consequatur quia aspernatur ratione deserunt odio voluptatem.</p>
                 <div className="footer-social-container">
                     <div className="footer-social-icon">

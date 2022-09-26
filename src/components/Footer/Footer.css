@@ -30,6 +30,7 @@
     width: 50%;
     margin-bottom: 10px;
     cursor: pointer;
+    color: black;
 }
 
 .footer-right{
@@ -67,6 +68,10 @@
     border-radius: 50%;
     padding: 5px;
     cursor: pointer;
+}
+
+.footer-logo{
+    color: black;
 }
 
 

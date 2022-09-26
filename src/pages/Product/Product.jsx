@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import "./Product.css"
 import Navbar from "../../components/Navbar/Navbar";
@@ -43,7 +44,7 @@ export default function Product(){
                             <span className="amount">1</span>
                             <span className="add">+</span>
                         </div>
-                        <button className="button">ADD TO CART</button>
+                        <Link to="/cart" style={{textDecoration: "none"}}><button className="button">ADD TO CART</button></Link>
                     </div>
                 </div>
             </div>  
